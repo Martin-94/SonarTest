@@ -10,7 +10,7 @@ namespace CarManagementSystem
             CarManager manager = new CarManager();
 
             manager.AddCar("Toyota", "Corolla", 2021, 20000);
-            manager.AddCar("BMW", "X5", 2022, 75000);
+            manager.AddCar("BMW", "X5", 2022, 75400);
             manager.AddCar("Ford", "Fiesta", 2015, -1000); // Problem: negative price
 
             manager.PrintCars();
